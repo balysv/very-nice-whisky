@@ -1,6 +1,6 @@
 package com.balysv.verynicedrinks.presentation.launcher
 
-import android.arch.lifecycle.Lifecycle.Event.ON_DESTROY
+import androidx.lifecycle.Lifecycle.Event.ON_DESTROY
 import android.content.Intent
 import android.os.Bundle
 import android.view.View.INVISIBLE

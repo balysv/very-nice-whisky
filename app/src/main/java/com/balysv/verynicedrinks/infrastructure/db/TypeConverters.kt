@@ -1,6 +1,6 @@
 package com.balysv.verynicedrinks.infrastructure.db
 
-import android.arch.persistence.room.TypeConverter
+import androidx.room.TypeConverter
 import com.balysv.verynicedrinks.domain.rating.Niceness
 import com.balysv.verynicedrinks.domain.whisky.WhiskyCostTier
 import com.balysv.verynicedrinks.domain.whisky.WhiskyType

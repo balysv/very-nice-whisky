@@ -1,15 +1,15 @@
 package com.balysv.verynicedrinks.infrastructure.db.entity
 
-import android.arch.persistence.room.ColumnInfo
-import android.arch.persistence.room.Entity
-import android.arch.persistence.room.Index
-import android.arch.persistence.room.PrimaryKey
+import androidx.room.ColumnInfo
+import androidx.room.Entity
+import androidx.room.Index
+import androidx.room.PrimaryKey
 import com.balysv.verynicedrinks.domain.rating.Niceness
 
 
 @Entity(
   tableName = "rating",
-  indices = arrayOf(Index(value = "whisky_id", unique = true))
+  indices = arrayOf(Index(value = ["whisky_id"], unique = true))
 )
 data class RatingEntity(
 

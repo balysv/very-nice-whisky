@@ -1,6 +1,6 @@
 package com.balysv.verynicedrinks.infrastructure
 
-import android.arch.persistence.room.Room
+import androidx.room.Room
 import android.content.Context
 import android.content.SharedPreferences
 import android.preference.PreferenceManager

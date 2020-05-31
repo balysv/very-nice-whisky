@@ -1,7 +1,7 @@
 package com.balysv.verynicedrinks.interactor
 
+import android.content.Context
 import android.content.res.Resources
-import android.test.mock.MockContext
 import com.balysv.verynicedrinks.R
 import com.balysv.verynicedrinks.domain.whisky.Whisky
 import com.balysv.verynicedrinks.domain.whisky.WhiskyRepository
@@ -24,7 +24,7 @@ class PreloadWhiskyInteractorTest {
   lateinit var whiskyRepository: WhiskyRepository
 
   @Mock
-  lateinit var app: MockContext
+  lateinit var app: Context
 
   @Mock
   lateinit var resources: Resources

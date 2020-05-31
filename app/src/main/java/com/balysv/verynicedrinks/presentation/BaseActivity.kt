@@ -1,6 +1,6 @@
 package com.balysv.verynicedrinks.presentation
 
-import android.support.v7.app.AppCompatActivity
+import androidx.appcompat.app.AppCompatActivity
 import com.balysv.verynicedrinks.DAGGER_SERVICE_NAME
 import com.trello.lifecycle2.android.lifecycle.AndroidLifecycle
 

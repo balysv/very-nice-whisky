@@ -1,7 +1,7 @@
 package com.balysv.verynicedrinks.presentation.ratewhisky
 
 import android.content.Context
-import android.support.transition.TransitionManager
+import androidx.transition.TransitionManager
 import android.util.AttributeSet
 import android.widget.ArrayAdapter
 import android.widget.Toast.LENGTH_LONG

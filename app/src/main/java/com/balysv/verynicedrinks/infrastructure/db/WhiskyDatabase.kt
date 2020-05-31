@@ -1,8 +1,8 @@
 package com.balysv.verynicedrinks.infrastructure.db
 
-import android.arch.persistence.room.Database
-import android.arch.persistence.room.RoomDatabase
-import android.arch.persistence.room.TypeConverters
+import androidx.room.Database
+import androidx.room.RoomDatabase
+import androidx.room.TypeConverters
 import com.balysv.verynicedrinks.infrastructure.db.dao.RandomFactDao
 import com.balysv.verynicedrinks.infrastructure.db.dao.RatingDao
 import com.balysv.verynicedrinks.infrastructure.db.dao.WhiskyDao

@@ -1,6 +1,6 @@
 package com.balysv.verynicedrinks.infrastructure.db.dao
 
-import android.arch.persistence.room.*
+import androidx.room.*
 import com.balysv.verynicedrinks.infrastructure.db.entity.RatingEntity
 import io.reactivex.Flowable
 import io.reactivex.Maybe

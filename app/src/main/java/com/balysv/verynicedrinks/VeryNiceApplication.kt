@@ -26,11 +26,4 @@ class VeryNiceApplication : Application() {
         .build()
     appGraph.inject(this)
   }
-
-  override fun getSystemService(name: String?): Any {
-    return if (name.equals(DAGGER_SERVICE_NAME))
-      appGraph
-    else
-      super.getSystemService(name)
-  }
 }
